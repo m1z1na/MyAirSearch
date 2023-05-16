@@ -129,12 +129,12 @@ public class CheckLineTest {
         assertThat(checkLine.check("(1=5||1=1)||2>1&9=9")).isEqualTo(true);
 
     }
-    public void myFail() {
+//    public void myFail() {
 
 //        assertThat(checkLine.check("\"abc\"=\"abc\"||1=1")).isEqualTo(true);
 //        assertThat(checkLine.check("(1=1||2>1)&(2=3||3=3)")).isEqualTo(true);
 //         assertThat(checkLine.check("1=1||(2>1&2=3)")).isEqualTo(true);
 //        assertThat(checkLine.check("(1=5||1=1)||(2>1&9=9)")).isEqualTo(true);
 //         assertThat(checkLine.check("(1=1)||2>1&(9=3)")).isEqualTo(true);
-    }
+//    }
 }

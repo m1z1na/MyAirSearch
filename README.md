@@ -28,3 +28,6 @@ airports.csv
 >Пример работы программы
  ![img.png](img.png)
 
+
+>Покрытие тестами
+> ![img_1.png](img_1.png)
